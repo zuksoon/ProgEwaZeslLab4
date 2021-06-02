@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "WinFormsAppLaboratoriaProg4_zad1oraz2/1.0.0": {
+        "runtime": {
+          "WinFormsAppLaboratoriaProg4_zad1oraz2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WinFormsAppLaboratoriaProg4_zad1oraz2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

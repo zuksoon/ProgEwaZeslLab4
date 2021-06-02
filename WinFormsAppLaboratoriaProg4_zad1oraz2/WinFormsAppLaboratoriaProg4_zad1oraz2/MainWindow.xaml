@@ -1,0 +1,18 @@
+﻿<Window x:Class="WinFormsAppLaboratoriaProg4_zad1oraz2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WinFormsAppLaboratoriaProg4_zad1oraz2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnAddStudent" Content="Add Student" HorizontalAlignment="Left" Margin="122,80,0,0" VerticalAlignment="Top" Click="btnAddStudent_Click"/>
+        <Button x:Name="btnRemoveStudent" Content="Remove Student" HorizontalAlignment="Left" Margin="234,80,0,0" VerticalAlignment="Top" Click="btnRemoveStudent_Click"/>
+        <DataGrid x:Name="dgStudent" Margin="0,120,0,23" HorizontalAlignment="Center" Width="760"/>
+        <Button x:Name="btnEditStudent" Content="Edit Student" HorizontalAlignment="Center" Margin="0,80,0,0" VerticalAlignment="Top" Click="btnEditStudent_Click"/>
+        <Button x:Name="btnAddGrades" Content="Add school grades" HorizontalAlignment="Left" Margin="475,80,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="brnSchoolGrades" Content="School grades" HorizontalAlignment="Left" Margin="615,80,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
